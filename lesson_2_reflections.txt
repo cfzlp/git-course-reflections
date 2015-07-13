@@ -15,8 +15,18 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    I can selectively add to the staging area from the working directory only
+    the changes that make logical sense for the commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+    When working on experimental features, or even on new large features, when
+    working in teams, it is useful to create a branch that isolates that work
+    in its own "space". In this way, colleagues are not affected by the ongoing
+    unfinished work; large features that require work for long periods of time
+    may be in unusable state and it is always good to be able to switch to the
+    working version and apply a small change or fix.
 
 How do the diagrams help you visualize the branch structure?
 
