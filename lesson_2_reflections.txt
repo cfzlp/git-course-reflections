@@ -31,11 +31,24 @@ organized? How would branches help?
 How do the diagrams help you visualize the branch structure?
 
     To draw the diagrams one must think about the branch structure step-by-step.
-    After havind the diagram drawn, it is easier to visualize the global
+    After having the diagram drawn, it is easier to visualize the global
     picture.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    Merging two branches together merges the contents of the files in the
+    directory tree, keeping the changes that were made to both branches, and
+    it creates a new commit with two parents — one from each of the branches.
+    That is the reason why the diagram is drawn with the merge commit connected
+    to two parent commits.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+    Completely manual merges would be very tedious and burdensome. Automatic
+    merging is a big help in that it does most of the straightforward work for
+    us. On the other hand, when git cannot determine how to merge a file or
+    more, it is necessary to merge manually because only a programmer with
+    knowledge of the language and the context can properly fix the conflict,
+    perhaps even with the help of other programmers.
