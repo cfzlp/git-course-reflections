@@ -30,6 +30,10 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+    To draw the diagrams one must think about the branch structure step-by-step.
+    After havind the diagram drawn, it is easier to visualize the global
+    picture.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
