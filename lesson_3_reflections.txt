@@ -23,7 +23,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Running git fetch origin, allows me to review changes that have been pushed
+    since I last pulled. I can then decide offline what I want to do. After
+    that, the local copy allows me to work offline, making changes and merging
+    branches if necessary.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
