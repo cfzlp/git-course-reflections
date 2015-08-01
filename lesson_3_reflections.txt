@@ -31,7 +31,10 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    My work happens on dedicated branches. When the work is done and is ready
+    to be merged into master, I can do it myself using git. But if I want
+    someone else to review it first, make suggestions on just share knowledge,
+    I would create a pull request.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
